@@ -1,7 +1,9 @@
-# Plasma and Urine Data Reformatter
+# 5HIAA Data Reformatter
 
 ## Overview
 This script processes and reformats 5-HIAA data related to plasma and urine collection, aiming to detect correlations between these two measurements. The data files provided for demonstration are dummy data, but the script is designed to handle real-world data effectively. It has already been applied successfully in real-world use cases involving unorganized datasets.
+
+The script is a little messy and not computationally efficient (no problem, as it only needs to be ran once every 6 months). This script was made as a favour to a friend in med school! ;)
 
 ## Key Features
 - **Reformats Data**: Aligns plasma and urine data into a unified structure for easier analysis.
