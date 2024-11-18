@@ -12,20 +12,6 @@ The script is a little messy and not computationally efficient (no problem, as i
 - **Time-Sensitive Pairing**: Only considers measurements taken within **six months** of each other as valid pairs.
 - **Modular Design**: Facilitates seamless integration of new data for future scalability.
 
-## Challenges Addressed
-1. **Pairing Measurements with Patients**:  
-   - The script requires prior knowledge of which plasma and urine measurements belong to the same patient which it does extracts automatically.
-   - Mismatched or ambiguous patient identifiers are resolved systematically.
-
-2. **Future-Proofing**:  
-   - Built with modularity to handle updates in data formats or structure without requiring extensive rewrites.
-
-3. **Edge Cases**:  
-   - Handles missing data, irregular time intervals, and duplicate entries efficiently.
-
-4. **Time Constraints**:  
-   - Implements logic to filter and pair measurements only if they occur within a six-month window.
-
 ## Usage
 1. **Input Files**:  
    - The script expects data files in a specific format. Ensure plasma and urine datasets are prepared as per the examples provided in the dummy files.
